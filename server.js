@@ -24,6 +24,41 @@ app.get("/", function(req, res){
     })
 });
 
+/******************************
+ * deliver about us page view
+ *****************************/
+app.get("/about", function(req, res){
+    res.render("about", {
+        title: "About Us"
+    })
+});
+
+/*************************
+ * deliver our services page
+ **************************/
+app.get("/services", function(req, res){
+    res.render("services", {
+        title: "Our Services"
+    })
+});
+
+/**************************
+ * deliver appointment page
+ *************************/
+app.get("/book-appointment", function(req, res){
+    res.render("appointment", {
+        title: "Appointment"
+    })
+});
+/******************************************
+ * deliver contact us page
+ *******************************/
+app.get("/contact", function(req, res){
+    res.render("contact", {
+        title: "Contact Us"
+    })
+})
+
 
 const port = process.env.PORT
 const host = process.env.HOST

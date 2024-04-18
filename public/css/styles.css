@@ -203,6 +203,30 @@ footer #social-icons{
   text-align: center;
 }
 
+/* CSS for About Us*/
+#mission-statement{
+    padding: 1rem;
+}
+#mission-statement .quote{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.about{
+    border: 1px solid #000 ;
+    background-color: var(--pry-bg);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.about img{
+    display: block;
+    margin: 0 auto;
+}
+.about p{
+    font-family: var(--standard-font);
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
 
 @media screen and (min-width: 720px) {
   #site-header{
@@ -234,6 +258,12 @@ footer #social-icons{
     width: 40%;
     float: left;
     padding: 1rem;
+  }
+  #hero-cta .quote{
+    font-size: 1.8rem;
+  }
+  .heroBtn{
+    bottom: 12rem;
   }
   #home-content{
     display: grid;
