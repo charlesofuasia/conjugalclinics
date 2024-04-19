@@ -393,5 +393,9 @@ div.instruct {
     padding: 0 1rem;
   }
   /*service page styling for wider screen*/
+  #services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 }
