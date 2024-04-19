@@ -2,7 +2,7 @@
     <h1><%- title %></h1>
     <%} %>
 
-
+<div class="form-box">
 <form action="/book-appointment" method="post">
 <fieldset>
 <legend>Personal Details</legend>
@@ -137,12 +137,7 @@ Select time*: <input type="time" id="time" name="time" />
 </label>
 </fieldset>
 <label for="submit">
-<input
-type="submit"
-id="submitBtn"
-class="ctaBtn"
-value="Secure Appointment"
-/>
+<button type="submit">Book Appointment</button>
 </label>
 </form>
 </div>

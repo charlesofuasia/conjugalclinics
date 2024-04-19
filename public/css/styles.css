@@ -250,13 +250,12 @@ footer #social-icons{
 
 
 /*Styling for #book form*/
-#book {
-  display: block;
-  width: 100%;
-  max-width: 1000px;
+.form-box{
   margin: 0 auto;
+  max-width: 30rem;
   font-family: var(--standard-font);
 }
+
 fieldset {
   border: 1px solid var(--bg-accent);
   border-radius: 10px;

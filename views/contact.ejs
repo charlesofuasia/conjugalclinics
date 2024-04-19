@@ -1,3 +1,40 @@
 <% if (title) {%>
     <h1><%- title %></h1>
     <%}  %>
+ <h2>Contact Us, Let Us Hear From You</h2>
+      <h3>Our Office for face to face consultation</h3>
+      <pre>
+        6 Nosakhare Okhomina Street
+        United Estate
+        Off Lekki Epe Expressway
+        Eti-Osa East LCDA
+        Lagos, Nigeria
+
+        Mobile/WhatsApp: +2348098657575
+
+        Email: info@conjugalclinics.com
+      </pre>
+
+      <div class="instruct">
+        We would love to hear from you, drop us a line and we will get back to
+        you
+      </div>
+      <form action="/contact" method="post">
+        <fieldset>
+          <label class="top">
+            Your Name:
+            <input type="text" id="visitor-name" name="visitor-name" required />
+          </label>
+          <label class="top">
+            Your Email Address:
+            <input type="email" id="email" name="email" required />
+          </label>
+          <label class="top">
+            Your Phone Number: <input type="tel" id="phone" name="phone" />
+          </label>
+          <label class="top">
+            Your Message: <textarea name="" id="" cols="25" rows="8"></textarea>
+          </label>
+         <button type="submit">Send Enquiry</button>
+        </fieldset>
+      </form>
