@@ -32,7 +32,7 @@ body{
 header{
     position: relative;
     padding: 1rem;
-    background: var(--pry-bg);
+    background: #008000;
 }
 #site-header{
   display: flex;
@@ -45,6 +45,7 @@ header{
 }
 #logo a{
   text-decoration: none;
+  color: #fff;
 
 }
 .quote{
@@ -102,19 +103,22 @@ iframe{
 }
 .menu-list a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: var(--standard-font);
   font-size: 1.2rem;
   padding: 0.5rem 0.8rem;
   white-space: nowrap;
 }
 #tel {
-  color: #000;
+  color: #fff;
   font-size: 1.2rem;
   font-family: var(--header-font);
 }
 .show.menu-list {
   display: block;
+}
+.phone{
+  color: #fff;
 }
 
 #hero{
@@ -140,7 +144,7 @@ iframe{
   position: absolute;
   left: 5.5rem;
   bottom: 3rem;
-  background-color: var(--bg-accent);
+  background-color: #ff0000;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
@@ -148,7 +152,7 @@ iframe{
 .heroBtn a{
   text-decoration: none;
   font-family: var(--standard-font);
-  color: #000;
+  color: #fff;
   font-style: oblique;
   font-weight: bold;
 }
@@ -160,6 +164,7 @@ iframe{
   margin: 0 auto;
   margin-top: -1rem;
   width: 100%;
+  background-color: #00b300;
 }
 #home-content .card{
   border: none;
@@ -168,6 +173,9 @@ iframe{
   font-family: var(--standard-font);
   font-size: 1.2rem;
   width: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #90ee90;
 }
 .card ul{
   display: inline-block;
@@ -177,6 +185,7 @@ iframe{
   padding: 1rem;
   font-family: var(--standard-font);
   font-size: 1.4rem;
+ 
 }
 .card img{
   width: 100%;
@@ -191,7 +200,7 @@ iframe{
 }
 /*footer styling*/
 footer{
-  background: var(--bg-accent);
+  background: #008000;
   font-family: var(--standard-font);
   color: #000;
   width: 100%;
