@@ -186,6 +186,7 @@ iframe{
   padding: 1rem;
   font-family: var(--standard-font);
   font-size: 1.4rem;
+  border: 1px solid #000;
  
 }
 .card img{
@@ -220,6 +221,15 @@ footer #social-icons{
 }
 
 /* CSS for About Us*/
+#about{
+  padding: 1rem;
+  background: #90A8EE;
+  margin: 0;
+}
+.about-title{
+  background-color: #90A8EE;
+  padding: 1rem;
+}
 #mission-statement{
     padding: 1rem;
 }
@@ -230,6 +240,7 @@ footer #social-icons{
 .about{
     padding: 1rem;
     margin-bottom: 1rem;
+    background-color: #B8C7F4;
 }
 .about img{
     display: block;
