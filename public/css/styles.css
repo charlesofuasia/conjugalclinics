@@ -176,7 +176,7 @@ iframe{
   width: 100%;
   border: 1px solid #000;
   border-radius: 10px;
-  background-color: #90ee90;
+  background-color: #B8C7F4;
 }
 .card ul{
   display: inline-block;
@@ -263,6 +263,7 @@ footer #social-icons{
 #services .card{
   border: 1px solid var(--bg-accent);
   border-radius: 10px;
+  background-color: #F6CEFC;
 }
 #service-categories{
   border: 1px solid var(--bg-accent);
